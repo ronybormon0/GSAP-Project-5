@@ -1,0 +1,132 @@
+/* Boiler plate Start */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  /* background-color: #111; */
+  /* color: #fff; */
+  font-family: Roboto;
+}
+
+/* @font-face {
+  font-family: china;
+  src: url(media/font/china.ttf);
+} */
+
+* {
+  font-family: "Space Grotesk", sans-serif;
+}
+/* Boiler plate End */
+
+section {
+  width: 100%;
+  position: relative;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4.167vw 6.944vw 0vw 6.944vw;
+}
+
+.part2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  gap: 2.778vw;
+}
+nav h1 {
+  font-size: 2vw;
+  font-weight: 400;
+}
+
+nav h1 i {
+  rotate: 45deg;
+  display: inline-block;
+}
+nav h4 {
+  font-size: 1.389vw;
+  font-weight: 400;
+}
+
+nav button {
+  padding: 1.389vw 2.431vw;
+  background-color: transparent;
+  color: #000000;
+  border: none;
+  border-radius: 0.35vw;
+  font-size: 1.389vw;
+  font-weight: 400;
+  cursor: pointer;
+  border: 0.069vw solid #000000;
+}
+
+.center {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 0vw 6.944vw;
+  padding-top: 4.861vw; */
+  padding: 4.861vw 6.944vw 0vw 6.944vw;
+}
+
+.center-part1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 41%;
+  gap: 2.431vw;
+}
+.center-part2 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 59%;
+}
+
+.center-part1 h1 {
+  font-family: "Space Grotesk";
+  font-size: 4.167vw;
+  font-weight: 400;
+}
+
+.center-part1 p {
+  font-size: 1.389vw;
+  font-weight: 400;
+}
+
+.center-part1 button {
+  font-size: 1.389vw;
+  font-family: "Space Grotesk";
+  display: flex;
+  padding: 1.389vw 2.431vw;
+  border-radius: 0.972vw;
+  background-color: #191a23;
+  color: #ffffff;
+}
+
+.center-part2 img {
+  width: 41.699vw;
+  height: 35.764vw;
+}
+
+.section1bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4.861vw 6.944vw 0vw 6.944vw;
+}
+
+.section1bottom img {
+  height: 3.333vw;
+  object-fit: contain;
+  /* mix-blend-mode: luminosity; */
+  filter: grayscale(1);
+}
