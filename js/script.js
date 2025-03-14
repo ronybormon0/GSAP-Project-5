@@ -62,7 +62,7 @@ function page2Animation() {
       end: "top 0%",
       scroller: "body",
       // markers: true,
-      // scrub: true,
+      scrub: true,
     }
   })
   
